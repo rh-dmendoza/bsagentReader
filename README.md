@@ -37,13 +37,10 @@ $ python search.py
 $ D:\logsqa\BSAGENT\missingtrx
 
 # The execute log will tell you the file that is been validate and if it found and error
-![imagen](https://user-images.githubusercontent.com/77275632/211556251-c4df52ad-e848-475e-8ecd-81131815a67b.png)
 
 # At the end of the process, you'll know how many error were found
-![imagen](https://user-images.githubusercontent.com/77275632/211556477-9c4c96c9-a2c6-411b-b042-fe80cdadaacd.png)
 
 # This will create a folder call "transacciones" in which the found errors will stored
-![imagen](https://user-images.githubusercontent.com/77275632/211556510-179b17e2-d1f1-4795-a0eb-afdba700d208.png)
 
 ```
 
@@ -64,13 +61,10 @@ $ python searchFromFtp.py
 # At the start, the script will create a folder call "archivos_ftp", to store the log files
 
 # The execute log will tell you the file that is been validate and if it found and error
-![imagen](https://user-images.githubusercontent.com/77275632/211556251-c4df52ad-e848-475e-8ecd-81131815a67b.png)
 
 # At the end of the process, you'll know how many error were found
-![imagen](https://user-images.githubusercontent.com/77275632/211556477-9c4c96c9-a2c6-411b-b042-fe80cdadaacd.png)
 
 # This will create a folder call "transacciones" in which the found errors will stored
-![imagen](https://user-images.githubusercontent.com/77275632/211556510-179b17e2-d1f1-4795-a0eb-afdba700d208.png)
 
 ```
 
@@ -84,4 +78,5 @@ NOT SUPPORTED YET
 
 ## Additional Documentation and Acknowledgments
 
-* ...
+* TODO: config file for ftp script
+* TODO: default folder for local script
