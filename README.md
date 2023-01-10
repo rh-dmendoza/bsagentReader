@@ -47,6 +47,33 @@ $ D:\logsqa\BSAGENT\missingtrx
 
 ```
 
+**searchFromFtp.py**
+```
+# Clone this repository
+$ git clone https://github.com/rh-dmendoza/bsagentReader.git
+
+# Go into the repository
+$ cd bsagentReader
+
+# You need connection to the controller's ftp, through vpn most likely
+# [The base connection is to EPA QA, if you want to change it, edit the .py file, lines 33 and 34 ]
+
+# Execute script
+$ python searchFromFtp.py
+
+# At the start, the script will create a folder call "archivos_ftp", to store the log files
+
+# The execute log will tell you the file that is been validate and if it found and error
+![imagen](https://user-images.githubusercontent.com/77275632/211556251-c4df52ad-e848-475e-8ecd-81131815a67b.png)
+
+# At the end of the process, you'll know how many error were found
+![imagen](https://user-images.githubusercontent.com/77275632/211556477-9c4c96c9-a2c6-411b-b042-fe80cdadaacd.png)
+
+# This will create a folder call "transacciones" in which the found errors will stored
+![imagen](https://user-images.githubusercontent.com/77275632/211556510-179b17e2-d1f1-4795-a0eb-afdba700d208.png)
+
+```
+
 ## Deployment
 
 NOT SUPPORTED YET
@@ -57,4 +84,4 @@ NOT SUPPORTED YET
 
 ## Additional Documentation and Acknowledgments
 
-
+* ...
